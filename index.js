@@ -5,7 +5,7 @@ const port = 4000;
 const chefRecipe = require('./Data/chefRecipe.json')
 app.use(cors());
 app.get('/' , (req,res)=>{
-res.send('Dragon is running')
+res.send('Dragon is running...')
 });
 app.get('/chefRecipe' , (req,res)=>{
     res.send(chefRecipe)
